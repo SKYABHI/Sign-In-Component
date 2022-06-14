@@ -1,6 +1,5 @@
 .container {
-  width: 400px;
-  max-width: 400px;
+  width: 25%;
   margin: 1rem;
   padding: 2rem;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -14,23 +13,25 @@
 body {
   background-color: #ebeef4;
   font-family: 'Roboto', sans-serif;
+  margin: auto;
+  padding: 0;
 }
 
 h1 {
-  padding-top: 20px;
+  padding-top: 1%;
 }
 
 form {
-  width: 300px;
-  margin-left: 42px;
+  width: 80%;
+  margin-left: 8%;
 }
 
 form label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 20px;
-  font-size: 18px;
+  margin-top: 5%;
+  font-size: 120%;
 }
 
 .main1 {
@@ -39,37 +40,54 @@ form label {
 
 .input1 {
   width: 100%;
-  padding: 12px;
+  padding: 3%;
   border: none;
   border: 1px solid gray;
   outline: none;
-  font-size: 18px;
+  font-size: 120%;
+}
+
+input.largerCheckbox {
+  width: 20px;
+  height: 20px;
 }
 
 input[type="submit"] {
-  width: 320px;
-  height: 35px;
-  margin-top: 20px;
+  width: 106%;
+  padding: 3%;
+  margin-top: 5%;
   border: none;
   background-color: #23886f;
   color: white;
-  font-size: 18px;
+  font-size: 150%;
   cursor: pointer;
 }
 
 .bottom {
   text-align: center;
-  padding-top: 20px;
-  font-size: 18px;
+  padding-top: 5%;
+  font-size: 100%;
   color: black;
   font-weight: bold;
 }
 
 .bottom1 {
-  margin-top: 10px;
+  margin-top: 2%;
 }
 
 .bottom2 {
-  margin-top: 20px;
+  margin-top: 5%;
+}
+
+@media (max-width: 780px) {
+  .container {
+    width: auto;
+  }
+  form label {
+    margin-top: 10%;
+  }
+  .bottom1 {
+    margin-top: 6%;
+  }
 }
 /*# sourceMappingURL=SignIn.css.map */

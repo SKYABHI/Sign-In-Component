@@ -51,7 +51,7 @@ return(
             
         </div>
         <div>
-            <label><input type="checkbox" /> Remember me?</label>
+            <label><input className="largerCheckbox" type="checkbox" /> &nbsp;Remember me?</label>
         </div>
         <div>
             <input type="submit" value="Sign in" />
@@ -66,12 +66,12 @@ return(
         </div>
         <div className="bottom1">
             
-           <span> Don't have an account? <Link className="bottom" to="/forgotpassword">Sign up</Link></span> 
+           <span> Don't have an account? <Link className="bottom" to="/signup">Sign up</Link></span> 
         
         </div>
         <div className="bottom1">
             
-            <Link className="bottom" to="/forgotpassword">Resend email confirmation</Link>
+            <Link className="bottom" to="/emailconfirmation">Resend email confirmation</Link>
         
         </div>
         </div>
